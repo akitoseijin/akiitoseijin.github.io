@@ -1,0 +1,100 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+.main{
+    width: 100%;
+    background-image: url(https://scontent.fcrk3-2.fna.fbcdn.net/v/t39.30808-6/375974020_808535214402667_7835689519288761977_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHx7NspaASXsNlXtCb_-u-egNjSv4G7LQKA2NK_gbstAsoj1MOafwbHzqlzVTY-H5jNZ_gu0Z_ahU-LHEGv5-x_&_nc_ohc=jMdz9Is-SC0AX9kF02v&_nc_ht=scontent.fcrk3-2.fna&oh=00_AfA3TbOcw6pKo3QPkV5dLUUp-Fl0gboiSdPJT-_spShcZA&oe=656B473C);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: Georgia;
+    
+}
+
+.myProfilePic{
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 860px;
+    margin-top: 200px;
+    
+}
+
+.menu{
+    width: 600px;S
+    float: center;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 750px;
+    display: unset; /*adjust this value to achieve the desired size */
+    font-size: 30px;
+    
+      
+ 
+
+}
+
+
+
+
+
+ul{
+    justify-content: center;
+    margin-top: 08px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+ul li a{
+    background-image: linear-gradient(
+        to right,
+        #54b3d6,
+        #54b3d6 50%,
+        #fdfdfd 50%
+      );
+      background-size: 250% 100%;
+      background-position: -100%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+
+ul li a:before {
+    content: '';
+    background: #54b3d6;
+    display: block;
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    height: 3px;
+  }
+
+ul li a:hover {
+    background-position: 0;
+   }
+
+ul li a:hover::before {
+    width: 100%;
+  }
+
+ul li a {
+    background-image: linear-gradient(
+      to right,
+      #54b3d6,
+      #54b3d6 50%,
+      #fffefe 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+
+
+  
